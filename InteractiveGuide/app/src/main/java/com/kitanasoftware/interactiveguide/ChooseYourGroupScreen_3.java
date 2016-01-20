@@ -15,6 +15,6 @@ public class ChooseYourGroupScreen_3 extends AppCompatActivity {
 
     public void goToMainScreen(View view) {
         Intent intent = new Intent(getApplicationContext(),MainScreen_4.class);
-        startActivity(intent);
+        startActivity(intent);//'
     }
 }
